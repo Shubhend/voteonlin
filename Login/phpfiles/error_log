@@ -1,0 +1,77 @@
+[16-Mar-2019 06:14:21 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/voteonli/public_html/Login/phpfiles/editproduct.php on line 76
+[16-Mar-2019 06:14:25 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/voteonli/public_html/Login/phpfiles/editproduct.php on line 76
+[16-Mar-2019 08:34:18 UTC] PHP Warning:  require(../loginpagecss/includes/config.php): failed to open stream: No such file or directory in /home/voteonli/public_html/Login/phpfiles/finalsub.php on line 3
+[16-Mar-2019 08:34:18 UTC] PHP Warning:  require(../loginpagecss/includes/config.php): failed to open stream: No such file or directory in /home/voteonli/public_html/Login/phpfiles/finalsub.php on line 3
+[16-Mar-2019 08:34:18 UTC] PHP Fatal error:  require(): Failed opening required '../loginpagecss/includes/config.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/voteonli/public_html/Login/phpfiles/finalsub.php on line 3
+[16-Mar-2019 08:36:12 Europe/London] PHP Warning:  include(loginpagecss/classes/user.php): failed to open stream: No such file or directory in /home/voteonli/public_html/loginpagecss/includes/config.php on line 33
+[16-Mar-2019 08:36:12 Europe/London] PHP Warning:  include(loginpagecss/classes/user.php): failed to open stream: No such file or directory in /home/voteonli/public_html/loginpagecss/includes/config.php on line 33
+[16-Mar-2019 08:36:12 Europe/London] PHP Warning:  include(): Failed opening 'loginpagecss/classes/user.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/voteonli/public_html/loginpagecss/includes/config.php on line 33
+[16-Mar-2019 08:36:12 Europe/London] PHP Warning:  include(loginpagecss/classes/phpmailer/mail.php): failed to open stream: No such file or directory in /home/voteonli/public_html/loginpagecss/includes/config.php on line 34
+[16-Mar-2019 08:36:12 Europe/London] PHP Warning:  include(loginpagecss/classes/phpmailer/mail.php): failed to open stream: No such file or directory in /home/voteonli/public_html/loginpagecss/includes/config.php on line 34
+[16-Mar-2019 08:36:12 Europe/London] PHP Warning:  include(): Failed opening 'loginpagecss/classes/phpmailer/mail.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/voteonli/public_html/loginpagecss/includes/config.php on line 34
+[16-Mar-2019 08:36:12 Europe/London] PHP Fatal error:  Class 'User' not found in /home/voteonli/public_html/loginpagecss/includes/config.php on line 35
+[16-Mar-2019 08:46:01 UTC] PHP Warning:  require(../loginpagecss/classes/phpmailer/mail.php): failed to open stream: No such file or directory in /home/voteonli/public_html/Login/phpfiles/finalsub.php on line 3
+[16-Mar-2019 08:46:01 UTC] PHP Warning:  require(../loginpagecss/classes/phpmailer/mail.php): failed to open stream: No such file or directory in /home/voteonli/public_html/Login/phpfiles/finalsub.php on line 3
+[16-Mar-2019 08:46:01 UTC] PHP Fatal error:  require(): Failed opening required '../loginpagecss/classes/phpmailer/mail.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/voteonli/public_html/Login/phpfiles/finalsub.php on line 3
+[28-Mar-2019 10:38:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1' in /home/voteonli/public_html/include/config.php:55
+Stack trace:
+#0 /home/voteonli/public_html/include/config.php(55): PDO->query('INSERT INTO  ch...')
+#1 /home/voteonli/public_html/Login/phpfiles/uploadrec.php(24): easyfeature->insert('INSERT INTO  ch...')
+#2 {main}
+  thrown in /home/voteonli/public_html/include/config.php on line 55
+[28-Mar-2019 13:00:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1' in /home/voteonli/public_html/include/config.php:55
+Stack trace:
+#0 /home/voteonli/public_html/include/config.php(55): PDO->query('INSERT INTO  ch...')
+#1 /home/voteonli/public_html/Login/phpfiles/uploadrec.php(24): easyfeature->insert('INSERT INTO  ch...')
+#2 {main}
+  thrown in /home/voteonli/public_html/include/config.php on line 55
+[11-Apr-2019 06:14:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Battlegrounds | xbox pubg | Pubg mobile | Vote For Pubg Game Lovers Hurry?????' at line 1' in /home/voteonli/public_html/include/config.php:75
+Stack trace:
+#0 /home/voteonli/public_html/include/config.php(75): PDO->query('UPDATE votingre...')
+#1 /home/voteonli/public_html/Login/phpfiles/editproduct.php(62): easyfeature->update('UPDATE votingre...')
+#2 {main}
+  thrown in /home/voteonli/public_html/include/config.php on line 75
+[11-Apr-2019 06:15:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Battlegrounds | xbox pubg | Pubg mobile | Vote For Pubg Game Lovers Hurry?????' at line 1' in /home/voteonli/public_html/include/config.php:75
+Stack trace:
+#0 /home/voteonli/public_html/include/config.php(75): PDO->query('UPDATE votingre...')
+#1 /home/voteonli/public_html/Login/phpfiles/editproduct.php(62): easyfeature->update('UPDATE votingre...')
+#2 {main}
+  thrown in /home/voteonli/public_html/include/config.php on line 75
+[11-Apr-2019 06:15:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Battlegrounds | xbox pubg | Pubg mobile | Vote For Pubg Game Lovers Hurry',tag' at line 1' in /home/voteonli/public_html/include/config.php:75
+Stack trace:
+#0 /home/voteonli/public_html/include/config.php(75): PDO->query('UPDATE votingre...')
+#1 /home/voteonli/public_html/Login/phpfiles/editproduct.php(62): easyfeature->update('UPDATE votingre...')
+#2 {main}
+  thrown in /home/voteonli/public_html/include/config.php on line 75
+[11-Apr-2019 06:18:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's #xboxpubg',des='PHA+PHNwYW4gc3R5bGU9ImNvbG9yOiAjNDA0MDQwOyBmb250LWZhbWlseTogUm' at line 1' in /home/voteonli/public_html/include/config.php:75
+Stack trace:
+#0 /home/voteonli/public_html/include/config.php(75): PDO->query('UPDATE votingre...')
+#1 /home/voteonli/public_html/Login/phpfiles/editproduct.php(62): easyfeature->update('UPDATE votingre...')
+#2 {main}
+  thrown in /home/voteonli/public_html/include/config.php on line 75
+[11-Apr-2019 06:19:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's #xboxpubg',des='PHA+PHNwYW4gc3R5bGU9ImNvbG9yOiAjNDA0MDQwOyBmb250LWZhbWlseTogUm' at line 1' in /home/voteonli/public_html/include/config.php:75
+Stack trace:
+#0 /home/voteonli/public_html/include/config.php(75): PDO->query('UPDATE votingre...')
+#1 /home/voteonli/public_html/Login/phpfiles/editproduct.php(62): easyfeature->update('UPDATE votingre...')
+#2 {main}
+  thrown in /home/voteonli/public_html/include/config.php on line 75
+[11-Apr-2019 06:20:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's #xboxpubg',des='PHA+PHNwYW4gc3R5bGU9ImNvbG9yOiAjNDA0MDQwOyBmb250LWZhbWlseTogUm' at line 1' in /home/voteonli/public_html/include/config.php:75
+Stack trace:
+#0 /home/voteonli/public_html/include/config.php(75): PDO->query('UPDATE votingre...')
+#1 /home/voteonli/public_html/Login/phpfiles/editproduct.php(62): easyfeature->update('UPDATE votingre...')
+#2 {main}
+  thrown in /home/voteonli/public_html/include/config.php on line 75
+[11-May-2019 09:38:54 UTC] PHP Warning:  include(../include/config.php): failed to open stream: No such file or directory in /home/voteonli/public_html/Login/phpfiles/employee-grid-data.php on line 2
+[11-May-2019 09:38:54 UTC] PHP Warning:  include(../include/config.php): failed to open stream: No such file or directory in /home/voteonli/public_html/Login/phpfiles/employee-grid-data.php on line 2
+[11-May-2019 09:38:54 UTC] PHP Warning:  include(): Failed opening '../include/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/voteonli/public_html/Login/phpfiles/employee-grid-data.php on line 2
+[11-May-2019 09:38:54 UTC] PHP Fatal error:  Call to a member function fetchrow() on null in /home/voteonli/public_html/Login/phpfiles/employee-grid-data.php on line 64
+[11-May-2019 09:39:33 UTC] PHP Warning:  include(../include/config.php): failed to open stream: No such file or directory in /home/voteonli/public_html/Login/phpfiles/employee-grid-data.php on line 2
+[11-May-2019 09:39:33 UTC] PHP Warning:  include(../include/config.php): failed to open stream: No such file or directory in /home/voteonli/public_html/Login/phpfiles/employee-grid-data.php on line 2
+[11-May-2019 09:39:33 UTC] PHP Warning:  include(): Failed opening '../include/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/voteonli/public_html/Login/phpfiles/employee-grid-data.php on line 2
+[11-May-2019 09:39:33 UTC] PHP Fatal error:  Call to a member function fetchrow() on null in /home/voteonli/public_html/Login/phpfiles/employee-grid-data.php on line 67
+[11-May-2019 09:40:18 UTC] PHP Warning:  include(../include/config.php): failed to open stream: No such file or directory in /home/voteonli/public_html/Login/phpfiles/employee-grid-data.php on line 2
+[11-May-2019 09:40:18 UTC] PHP Warning:  include(../include/config.php): failed to open stream: No such file or directory in /home/voteonli/public_html/Login/phpfiles/employee-grid-data.php on line 2
+[11-May-2019 09:40:18 UTC] PHP Warning:  include(): Failed opening '../include/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/voteonli/public_html/Login/phpfiles/employee-grid-data.php on line 2
+[11-May-2019 09:40:18 UTC] PHP Fatal error:  Call to a member function fetchrow() on null in /home/voteonli/public_html/Login/phpfiles/employee-grid-data.php on line 72
+[11-May-2019 10:54:42 UTC] PHP Fatal error:  Cannot use [] for reading in /home/voteonli/public_html/Login/phpfiles/employee-grid-data.php on line 50
+[11-May-2019 10:54:47 UTC] PHP Fatal error:  Cannot use [] for reading in /home/voteonli/public_html/Login/phpfiles/employee-grid-data.php on line 50

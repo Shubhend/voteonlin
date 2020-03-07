@@ -1,0 +1,90 @@
+[10-Aug-2019 15:13:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'August 2019 ')' at line 1' in /home/voteonli/public_html/include/config.php:55
+Stack trace:
+#0 /home/voteonli/public_html/include/config.php(55): PDO->query('INSERT INTO vir...')
+#1 /home/voteonli/public_html/viral/upload.php(31): easyfeature->insert('INSERT INTO vir...')
+#2 {main}
+  thrown in /home/voteonli/public_html/include/config.php on line 55
+[10-Aug-2019 15:16:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'August 2019 ')' at line 1' in /home/voteonli/public_html/include/config.php:55
+Stack trace:
+#0 /home/voteonli/public_html/include/config.php(55): PDO->query('INSERT INTO vir...')
+#1 /home/voteonli/public_html/viral/upload.php(31): easyfeature->insert('INSERT INTO vir...')
+#2 {main}
+  thrown in /home/voteonli/public_html/include/config.php on line 55
+[10-Aug-2019 15:17:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'August 2019 ')' at line 1' in /home/voteonli/public_html/include/config.php:55
+Stack trace:
+#0 /home/voteonli/public_html/include/config.php(55): PDO->query('INSERT INTO vir...')
+#1 /home/voteonli/public_html/viral/upload.php(32): easyfeature->insert('INSERT INTO vir...')
+#2 {main}
+  thrown in /home/voteonli/public_html/include/config.php on line 55
+[10-Aug-2019 15:23:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/voteonli/public_html/viral/upload.php:19) in /home/voteonli/public_html/viral/upload.php on line 38
+[10-Aug-2019 15:24:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/voteonli/public_html/viral/upload.php:23) in /home/voteonli/public_html/viral/upload.php on line 42
+[10-Aug-2019 15:31:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'file' in 'where clause'' in /home/voteonli/public_html/include/config.php:108
+Stack trace:
+#0 /home/voteonli/public_html/include/config.php(108): PDO->query('SELECT * FROM v...')
+#1 /home/voteonli/public_html/viral/upload.php(38): easyfeature->fetchrow('SELECT * FROM v...', 'id')
+#2 {main}
+  thrown in /home/voteonli/public_html/include/config.php on line 108
+[10-Aug-2019 15:38:19 UTC] PHP Fatal error:  Call to a member function fetchrow() on null in /home/voteonli/public_html/viral/Rakshabandhan.php on line 708
+[12-Aug-2019 10:42:55 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 943
+[12-Aug-2019 10:44:59 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 949
+[12-Aug-2019 10:47:10 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[12-Aug-2019 10:58:48 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[12-Aug-2019 10:58:48 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[12-Aug-2019 10:58:48 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[12-Aug-2019 10:58:48 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[12-Aug-2019 10:58:51 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[12-Aug-2019 10:58:51 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[12-Aug-2019 10:58:51 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[12-Aug-2019 10:59:11 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[12-Aug-2019 10:59:25 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[12-Aug-2019 11:02:08 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[12-Aug-2019 11:06:18 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[12-Aug-2019 11:06:36 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[12-Aug-2019 11:06:36 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[12-Aug-2019 11:06:36 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[12-Aug-2019 11:06:50 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[12-Aug-2019 11:06:50 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[12-Aug-2019 11:06:50 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[12-Aug-2019 11:06:50 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[12-Aug-2019 11:08:21 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[12-Aug-2019 11:08:22 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[12-Aug-2019 11:11:48 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[12-Aug-2019 11:11:48 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[12-Aug-2019 11:11:51 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[12-Aug-2019 11:11:52 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[12-Aug-2019 11:11:52 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[12-Aug-2019 11:11:52 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[12-Aug-2019 11:12:11 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[12-Aug-2019 11:13:27 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[12-Aug-2019 11:18:15 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[12-Aug-2019 11:18:15 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[12-Aug-2019 11:18:15 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[13-Aug-2019 18:33:51 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[14-Aug-2019 07:43:58 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[14-Aug-2019 07:44:00 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[14-Aug-2019 07:44:13 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[14-Aug-2019 07:47:46 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[14-Aug-2019 07:47:47 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[14-Aug-2019 07:48:05 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[14-Aug-2019 07:48:05 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[14-Aug-2019 08:29:52 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[14-Aug-2019 08:29:52 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[14-Aug-2019 08:29:52 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[14-Aug-2019 08:29:59 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[14-Aug-2019 08:31:51 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[14-Aug-2019 08:33:11 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[14-Aug-2019 08:34:58 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[14-Aug-2019 08:37:18 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[14-Aug-2019 08:37:19 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[14-Aug-2019 08:39:32 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[14-Aug-2019 08:39:32 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[14-Aug-2019 08:39:32 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[14-Aug-2019 08:39:41 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[14-Aug-2019 08:41:45 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[14-Aug-2019 08:42:26 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[14-Aug-2019 10:51:13 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[14-Aug-2019 10:51:45 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[14-Aug-2019 10:58:07 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[14-Aug-2019 11:08:11 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[14-Aug-2019 11:09:20 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947
+[14-Aug-2019 11:10:20 UTC] PHP Fatal error:  Call to a member function rowcount() on null in /home/voteonli/public_html/viral/rakshanew.php on line 947

@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<title>gsdg</title>
+<style>
+
+html,
+body {
+  height: 100%;
+  
+ margin:0px;
+ padding:0px;
+ 
+}
+
+
+
+.pageBlock {
+  width: 100%;
+  height: 100%;
+  
+ 
+  background-attachment: fixed;
+ 
+  padding: 0px;
+}
+
+#page1 {
+  background-image: url(https://www.pakutaso.com/shared/img/thumb/ELFADSC08904_TP_V.jpg);
+}
+
+#page2 {
+height:auto;
+background-color:#f2f2f2;
+}
+
+#page3 {
+  background-image: url(https://www.pakutaso.com/shared/img/thumb/Yamasha17826001_TP_V.jpg);
+}
+
+#page4 {
+
+height:auto;
+}
+
+
+.navigation {
+  height: 70px;
+  width:100%;
+  background: transparent;
+  position:fixed;
+  top:0;
+}
+
+.brand {
+  position: absolute;
+  padding-left: 20px;
+  float: left;
+  line-height: 70px;
+  text-transform: uppercase;
+  font-size:20px;
+}
+.brand a,
+.brand a:visited {
+  color: #ffffff;
+  text-decoration: none;
+   font-size:20px;
+}
+
+.nav-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+nav {
+  float: right;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  float: left;
+  position: relative;
+}
+nav ul li a,
+nav ul li a:visited {
+  display: block;
+  padding: 0 20px;
+  line-height: 70px;
+  background: #262626;
+  color: #ffffff;
+  text-decoration: none;
+   font-size:20px;
+}
+nav ul li a:hover,
+nav ul li a:visited:hover {
+  background: #2581DC;
+  color: #ffffff;
+  
+}
+nav ul li a:not(:only-child):after,
+nav ul li a:visited:not(:only-child):after {
+  padding-left: 4px;
+  content: ' ▾';
+}
+nav ul li ul li {
+  min-width: 190px;
+}
+nav ul li ul li a {
+  padding: 15px;
+  line-height: 20px;
+  font-size:20px;
+}
+
+.nav-dropdown {
+  position: absolute;
+  display: none;
+  z-index: 1;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Mobile navigation */
+.nav-mobile {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #262626;
+  height: 70px;
+  width: 70px;
+}
+
+@media only screen and (max-width: 798px) {
+  .nav-mobile {
+    display: block;
+  }
+
+  nav {
+    width: 100%;
+    padding: 70px 0 15px;
+  }
+  nav ul {
+    display: none;
+  }
+  nav ul li {
+    float: none;
+  }
+  nav ul li a {
+    padding: 15px;
+    line-height: 20px;
+  }
+  nav ul li ul li a {
+    padding-left: 30px;
+  }
+
+  .nav-dropdown {
+    position: static;
+  }
+}
+@media screen and (min-width: 799px) {
+  .nav-list {
+    display: block !important;
+  }
+}
+#nav-toggle {
+  position: absolute;
+  left: 18px;
+  top: 22px;
+  cursor: pointer;
+  padding: 10px 35px 16px 0px;
+}
+#nav-toggle span,
+#nav-toggle span:before,
+#nav-toggle span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 5px;
+  width: 35px;
+  background: #ffffff;
+  position: absolute;
+  display: block;
+  content: '';
+  transition: all 300ms ease-in-out;
+}
+#nav-toggle span:before {
+  top: -10px;
+}
+#nav-toggle span:after {
+  bottom: -10px;
+}
+#nav-toggle.active span {
+  background-color: transparent;
+}
+#nav-toggle.active span:before, #nav-toggle.active span:after {
+  top: 0;
+}
+#nav-toggle.active span:before {
+  transform: rotate(45deg);
+}
+#nav-toggle.active span:after {
+  transform: rotate(-45deg);
+}
+
+
+
+
+
+.container {
+  display: flex;
+  -webkit-display: box;
+  -moz-display: box;
+  -ms-display: flexbox;
+  -webkit-display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+.cards {
+  display: flex;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+@media (min-width: 40rem) {
+  .cards {
+    width: 45%;
+  }
+}
+@media (min-width: 56rem) {
+  .cards {
+    width: 29.3%;
+  }
+}
+.cards .card-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 100%;
+  border-radius: 6px;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  transition: transform 0.5s;
+  -webkit-transition: transform 0.5s;
+}
+.cards .card-item:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+}
+.cards .card-item:hover .card-image {
+  opacity: 1;
+}
+.cards .card-info {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  padding: 1rem;
+  line-height: 1.5em;
+}
+.cards .card-title {
+  font-size: 25px;
+  line-height: 1.1em;
+  color: #32325d;
+  margin-bottom: 0.2em;
+}
+.cards .card-image {
+  height: 200px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 6px 6px 0px 0px;
+  opacity: 0.91;
+}
+
+
+
+
+
+
+
+
+
+.bgb {
+  background: #B1ECC6;
+ 
+  position: relative;
+}
+.bgb:before {
+ 
+    position: absolute;
+    top: -92px;
+    left: 0;
+    content: '';
+    height: 0;
+    width: 0;
+    border-left: 98.3vw solid #B1ECC6;
+    border-bottom: 4vw solid transparent;
+    border-top: 93px solid transparent;
+    overflow: hidden;
+}
+
+
+.content {
+  background: inherit;
+  width: 80%; /* =cw */
+  height: 40%; /* =ch */
+  border-radius: 8px;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.5);
+  position: relative;
+  top: 50%; /* =ct */
+  left: 40%; /* =cl */
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+.text {
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.3);
+  height: 100%;
+  box-sizing: border-box; /* so that padding is included in height */
+}
+
+.blur {
+  background: inherit;
+  height: 100vh; 
+  width: 166.667%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(
+    -10%,
+    -30%
+  ); 
+  filter: blur(20px);
+  z-index: -1;
+}
+
+
+
+
+</style>
+<script>
+
+(function($) {
+  // Begin jQuery
+  $(function() {
+    // DOM ready
+    // If a link has a dropdown, add sub menu toggle.
+    $("nav ul li a:not(:only-child)").click(function(e) {
+      $(this)
+        .siblings(".nav-dropdown")
+        .toggle();
+      // Close one dropdown when selecting another
+      $(".nav-dropdown")
+        .not($(this).siblings())
+        .hide();
+      e.stopPropagation();
+    });
+    // Clicking away from dropdown will remove the dropdown class
+    $("html").click(function() {
+      $(".nav-dropdown").hide();
+    });
+    // Toggle open and close nav styles on click
+    $("#nav-toggle").click(function() {
+      $("nav ul").slideToggle();
+    });
+    // Hamburger to X toggle
+    $("#nav-toggle").on("click", function() {
+      this.classList.toggle("active");
+    });
+  }); // end DOM ready
+})(jQuery); // end jQuery
+
+
+
+$(document).ready(function(){
+  $(window).scroll(function(){
+  	var scroll = $(window).scrollTop();
+	  if (scroll > 300) {
+	    $(".navigation").css("background" , "rgba(0, 0, 0, 0.5)");
+		$("nav ul li a").css("background" , "rgba(0, 0, 0, 0.5)");
+		
+	  }
+
+	  else{
+		  $(".navigation").css("background" , "transparent");  	
+		  $("nav ul li a").css("background" , "transparent");
+	  }
+  })
+})
+</script>
+</head>
+
+<body>
+<section class="navigation">
+  <div class="nav-container">
+    <div class="brand">
+      <a href="#!">Logo</a>
+    </div>
+    <nav>
+      <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+      <ul class="nav-list">
+        <li>
+          <a href="#!">Home</a>
+        </li>
+        <li>
+          <a href="#!">About</a>
+        </li>
+        <li>
+          <a href="#!">Services</a>
+          <ul class="nav-dropdown">
+            <li>
+              <a href="#!">Web Design</a>
+            </li>
+            <li>
+              <a href="#!">Web Development</a>
+            </li>
+            <li>
+              <a href="#!">Graphic Design</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#!">Pricing</a>
+        </li>
+        <li>
+          <a href="#!">Portfolio</a>
+          <ul class="nav-dropdown">
+            <li>
+              <a href="#!">Web Design</a>
+            </li>
+            <li>
+              <a href="#!">Web Development</a>
+            </li>
+            <li>
+              <a href="#!">Graphic Design</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#!">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+ <div id="page1" class="pageBlock">Spring</div>
+<div id="page2" class="pageBlock bg">
+
+<center>
+<div class="container">
+
+
+
+  <div class="cards" >
+    <div class="card-item">
+      <div class="card-image" style="background-image:url(https://source.unsplash.com/featured/?mountains);">
+      </div>
+      <div class="card-info">
+        <h2 class="card-title">Exploring around</h2>
+        <p class="card-intro">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+
+  <div class="cards" >
+    <div class="card-item">
+      <div class="card-image" style="background-image:url(https://source.unsplash.com/featured/?mountains);">
+      </div>
+      <div class="card-info">
+        <h2 class="card-title">Exploring around</h2>
+        <p class="card-intro">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  <div class="cards" >
+    <div class="card-item">
+      <div class="card-image" style="background-image:url(https://source.unsplash.com/featured/?mountains);">
+      </div>
+      <div class="card-info">
+        <h2 class="card-title">Exploring around</h2>
+        <p class="card-intro">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+      </div>
+    </div>
+  </div>
+  
+  
+  </div>
+
+</center>
+
+</div>
+<div id="page3" class="pageBlock">
+  <div class="content">
+    <div class="text">
+      <h1>Lorem ipsum dolor sit amet </h1>
+    </div>
+
+    <div class="blur"></div>
+  </div>
+</div>
+<div id="page4" class="pageBlock bgb">
+
+    <section class="our-team-section">
+      
+            <div class="containers" style="    display: flex;
+    flex-wrap: wrap;">
+                <div class="cards">
+                    <div class="our-team">
+                        <div class="pic">
+                            <img src="https://i.ibb.co/8x9xK4H/team.jpg">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="title">Team 1</h3>
+                            <span class="post">Inhaber & Geschäftsführer</span>
+                        </div>
+                        <ul class="social">
+                            <li>
+                                <a href="#"  target="_blank"class="fa fa-facebook"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="fa fa-twitter"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="fa fa-google-plus"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="fa fa-linkedin"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+              
+            <div class="cards">
+                    <div class="our-team">
+                        <div class="pic">
+                            <img src="https://i.ibb.co/8x9xK4H/team.jpg">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="title">Team 1</h3>
+                            <span class="post">Inhaber & Geschäftsführer</span>
+                        </div>
+                        <ul class="social">
+                            <li>
+                                <a href="#"  target="_blank"class="fa fa-facebook"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="fa fa-twitter"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="fa fa-google-plus"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="fa fa-linkedin"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+				
+				  <div class="cards">
+                    <div class="our-team">
+                        <div class="pic">
+                            <img src="https://i.ibb.co/8x9xK4H/team.jpg">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="title">Team 1</h3>
+                            <span class="post">Inhaber & Geschäftsführer</span>
+                        </div>
+                        <ul class="social">
+                            <li>
+                                <a href="#"  target="_blank"class="fa fa-facebook"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="fa fa-twitter"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="fa fa-google-plus"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="fa fa-linkedin"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+				
+				
+				
+            </div>
+       
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<section>
+<div class="card-holder">
+  <div class="card bg-aurora">
+    New Planets<br/>Discovered
+  </div>
+</div>
+
+</section>
+
+<style>
+
+.card-holder {
+  margin: 2em 0;
+}
+
+.card {
+  font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
+  font-size: 3em;
+  font-weight: 800;
+  height: 4em;
+  width: 64em;
+  padding: 0.5em 1em;
+  border-radius: 0.25em;
+  display: table-cell;
+  vertical-align: middle;
+  letter-spacing: -2px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card .subtle {
+  color: #000;
+  font-size: 0.5em;
+  font-weight: 400;
+  letter-spacing: -1px;
+}
+
+.bg-aurora {
+    color: #fff;
+    background: -webkit-linear-gradient(-70deg, #fa7c30 30%, rgba(0, 0, 0, 0) 30%), url('https://www.nasa.gov/sites/default/files/thumbnails/image/pia21421-cr.jpg');
+    background: -o-linear-gradient(-70deg, #fa7c30 30%, rgba(0, 0, 0, 0) 30%), url('https://www.nasa.gov/sites/default/files/thumbnails/image/pia21421-cr.jpg');
+    background: -moz-linear-gradient(-70deg, #fa7c30 30%, rgba(0, 0, 0, 0) 30%), url('https://www.nasa.gov/sites/default/files/thumbnails/image/pia21421-cr.jpg');
+    background: linear-gradient(-70deg, #fa7c30 30%, rgba(0, 0, 0, 0) 30%), url('https://www.nasa.gov/sites/default/files/thumbnails/image/pia21421-cr.jpg');
+  background-size: cover;
+  background-position: 50% 21%;
+  text-align: right;
+}
+
+
+
+.col{
+margin:4px;
+width:300px;
+margin:7px;
+
+
+
+
+}
+.our-team-section .row {
+   
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.our-team {
+    padding: 30px 0 40px;
+    background: #f9f9f9;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 5px solid #00325a;
+	width:100%;
+}
+.our-team:hover{
+    border-bottom: 5px solid #2f2f2f;
+}
+
+.our-team .pic{
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    margin-bottom: 50px;
+    z-index: 1;
+    position: relative;
+}
+.our-team .pic:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #00325a;
+    position: absolute;
+    bottom: 135%;
+    right: 0;
+    left: 0;
+    opacity: 1;
+    transform: scale(3);
+    transition: all 0.3s linear 0s;
+}
+.our-team:hover .pic:before{
+ height: 100%;
+    background: #2f2f2f; 
+ }
+.our-team .pic:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #ffffff00;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: all 0.3s linear 0s;
+}
+.our-team:hover .pic:after{
+    background: #7ab92d;
+}
+.our-team .pic img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 0.9s ease 0s;
+    box-shadow: 0 0 0 14px #f7f5ec;
+    transform: scale(0.7);
+    position: relative;
+    z-index: 2;
+}
+.our-team:hover .pic img{
+    box-shadow: 0 0 0 14px #f7f5ec;
+    transform: scale(0.7);
+}
+.our-team .team-content{ margin-bottom: 30px; }
+.our-team .title{
+    font-size: 22px;
+    font-weight: 700;
+    color: #4e5052;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.our-team .post{
+    display: block;
+    font-size: 15px;
+    color: #4e5052;
+    text-transform:capitalize;
+}
+.our-team .social{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: #2f2f2f;
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    transition: all 0.5s ease 0s;
+}
+.our-team:hover .social{ bottom: 0; }
+.our-team .social li{ display: inline-block; }
+.our-team .social li a{
+    display: block;
+    padding: 10px;
+    font-size: 17px;
+    color: #fff;
+    transition: all 0.3s ease 0s;
+}
+.our-team .social li a:hover{
+    color: #2f2f2f;
+    background: #f7f5ec;
+}
+@media only screen and (max-width: 990px){
+    .our-team{ margin-bottom: 30px; }
+}
+</style>
+</body>
+</html>
