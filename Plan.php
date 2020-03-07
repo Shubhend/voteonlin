@@ -14,7 +14,7 @@ setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/", "",  0); // 8
 <html>
 <head>
 <meta charset="utf-8">
-<title>Online Voting Plan </title>
+<title>Online Voting Plan  </title>
 <!-- Stylesheets -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/main.css" rel="stylesheet">
