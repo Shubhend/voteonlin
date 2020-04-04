@@ -206,7 +206,7 @@ function signOut() {
   </div>
  
  
-  <a href="https://vote-onlin.com/reset.php">Forgot Password??</a>
+  <a href="https://theonlinevoting.com/reset.php">Forgot Password??</a>
  <p class="warning"></p>
 
   

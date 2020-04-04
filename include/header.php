@@ -18,7 +18,7 @@
             	<div class="clearfix">
                 	
                 	<div class="pull-left logo-box">
-                    	<div class="logo"><a href="https://vote-onlin.com/index.php"><img style="width:70px;" src="images/Capture.PNG" alt="" title=""></a></div>
+                    	<div class="logo"><a href="https://theonlinevoting.com/index.php"><img style="width:70px;" src="images/Capture.PNG" alt="" title=""></a></div>
                     </div>
                    	
                    	<div class="nav-outer clearfix">
@@ -35,25 +35,25 @@
 
 							<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent" style="color:black;">
 								<ul class="navigation clearfix">
-									<li class="current "><a style="color:;" href="https://vote-onlin.com/index.php">Home</a>
+									<li class="current "><a style="color:;" href="https://theonlinevoting.com/index.php">Home</a>
 									
 									</li>
-									<li class=""><a style="" href="https://vote-onlin.com/Online-Voting.php">Voting Lines</a>
+									<li class=""><a style="" href="https://theonlinevoting.com/Online-Voting.php">Voting Lines</a>
 									
 								<!--	</li>
-										<li class=""><a style="" href="https://vote-onlin.com/freeads.php">Free Promotion</a>
+										<li class=""><a style="" href="https://theonlinevoting.com/freeads.php">Free Promotion</a>
 									
 									</li> -->
-									<li><a style="" href="https://vote-onlin.com/online-vote-login.php">Login/Signup</a></li>
+									<li><a style="" href="https://theonlinevoting.com/online-vote-login.php">Login/Signup</a></li>
 								
-									<li class="dropdown"><a style="" href="https://vote-onlin.com/online-vote-login.php">Create Voting Line</a>
+									<li class="dropdown"><a style="" href="https://theonlinevoting.com/online-vote-login.php">Create Voting Line</a>
 										<ul>
-											<li><a style="" href="https://vote-onlin.com/online-vote-login.php">Create Online Voting</a></li>
-											<li><a style="" href="https://vote-onlin.com/online-vote-login.php">View Reports</a></li>
-												<li><a style="" href="https://vote-onlin.com/online-vote-login.php">Manage Product</a></li>
+											<li><a style="" href="https://theonlinevoting.com/online-vote-login.php">Create Online Voting</a></li>
+											<li><a style="" href="https://theonlinevoting.com/online-vote-login.php">View Reports</a></li>
+												<li><a style="" href="https://theonlinevoting.com/online-vote-login.php">Manage Product</a></li>
 										</ul>
 									</li>
-									<li><a style="" href="https://vote-onlin.com/contact.php">Contact us</a></li>
+									<li><a style="" href="https://theonlinevoting.com/contact.php">Contact us</a></li>
 								</ul>
 							</div>
 							
@@ -76,7 +76,7 @@
         	<div class="auto-container clearfix">
             	<!--Logo-->
             	<div class="logo pull-left">
-                	<a href="https://vote-onlin.com/index.php" class="img-responsive"><img src="" alt="" title=""></a>
+                	<a href="https://theonlinevoting.com/index.php" class="img-responsive"><img src="" alt="" title=""></a>
                 </div>
                 
                 <!--Right Col-->
@@ -91,23 +91,23 @@
                         
                         <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent1">
                           	<ul class="navigation clearfix">
-									<li class="current "><a href="https://vote-onlin.com/index.php">Home</a>
+									<li class="current "><a href="https://theonlinevoting.com/index.php">Home</a>
 								<!--	
 									</li>
-										<li class=""><a href="https://vote-onlin.com/freeads.php">Free Promotion</a></li> -->
-									<li class=""><a href="https://vote-onlin.com/Online-Voting.php">Voting Lines</a>
+										<li class=""><a href="https://theonlinevoting.com/freeads.php">Free Promotion</a></li> -->
+									<li class=""><a href="https://theonlinevoting.com/Online-Voting.php">Voting Lines</a>
 									
 									</li>
-									<li><a href="https://vote-onlin.com/online-vote-login.php">Login/Signup</a></li>
+									<li><a href="https://theonlinevoting.com/online-vote-login.php">Login/Signup</a></li>
 								
-									<li class="dropdown"><a href="https://vote-onlin.com/online-vote-login.php">Create Voting Line</a>
+									<li class="dropdown"><a href="https://theonlinevoting.com/online-vote-login.php">Create Voting Line</a>
 										<ul>
-										    	<li><a href="https://vote-onlin.com/online-vote-login.php">Create Online Voting</a></li>
-											<li><a href="https://vote-onlin.com/online-vote-login.php">Manage Product</a></li>
-											<li><a href="https://vote-onlin.com/online-vote-login.php">View Reports</a></li>
+										    	<li><a href="https://theonlinevoting.com/online-vote-login.php">Create Online Voting</a></li>
+											<li><a href="https://theonlinevoting.com/online-vote-login.php">Manage Product</a></li>
+											<li><a href="https://theonlinevoting.com/online-vote-login.php">View Reports</a></li>
 										</ul>
 									</li>
-									<li><a href="https://vote-onlin.com/contact.php">Contact us</a></li>
+									<li><a href="https://theonlinevoting.com/contact.php">Contact us</a></li>
 								</ul>
                         </div>
                     </nav><!-- Main Menu End-->

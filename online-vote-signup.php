@@ -70,7 +70,7 @@ if(isset($_POST['submit'])){
 			
 			
 			
-			$url='https://vote-onlin.com';
+			$url='https://theonlinevoting.com';
 			$to = $_POST['email'];
 			$subject = "Registration Confirmation";
 			
@@ -83,13 +83,13 @@ Welcome to the Voters and Candidate Family!
 <br/>
 Regards,
 <br/>
-Vote-onlin.com<br/>
+theonlinevoting.com<br/>
 voteonlinofficial@gmail.com</p>
 			<p>To activate your account, please click on this link: <a href='".$url."/activate.php?x=$id&y=$activasion'>".$url."/activate.php?x=$id&y=$activasion</a></p>
 			<p>Regards Site Admin</p>";
 
 			$mail = new Mail();
-			$mail->setFrom('noreply@vote-onlin.com','Welcome '.$username.' Activation Request By Vote Online');
+			$mail->setFrom('noreply@theonlinevoting.com','Welcome '.$username.' Activation Request By Vote Online');
 		
 			$mail->addAddress($to);
 			$mail->subject($subject);

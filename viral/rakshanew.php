@@ -9,7 +9,7 @@
  
     <meta property="og:type" content="Make your own wonderful wish for you loved once"/>
     <meta property="og:title" content="Wishing You Happy Raksha bandhan Wishes –2019"/>
-    <meta property="og:url" content="https://15augustviral.vote-onlin.com/Rakshabandhan.php?name=tt"/>
+    <meta property="og:url" content="https://15augustviral.theonlinevoting.com/Rakshabandhan.php?name=tt"/>
    
   
 	<link rel="icon" type="image/png" sizes="32x32" href="https://pbs.twimg.com/media/DL5jDe3UQAAQexK.jpg"/>

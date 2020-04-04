@@ -22,10 +22,10 @@
 <meta name="copyright"content="Vote-onlin">
 <meta name="language" content="ES">
 
-<meta name="url" content="https://vote-onlin.com">
+<meta name="url" content="https://theonlinevoting.com">
 <meta name="og:title" content="(Orignal 100%) The Book Of Coaching For Extraordinary Mind Free Download and Online Reading|| Life Coaching For Extraordinary Life"/>
 <meta name="og:type" content="content"/>
-<meta name="og:url" content="https://vote-onlin.com/Blog/The-Book-Of-Coaching-For-Extraordinary-Mind-Free-Download-and-Online-Reading%7C%7C-Life-Coaching-For-Extaordinary-Life.php"/>
+<meta name="og:url" content="https://theonlinevoting.com/Blog/The-Book-Of-Coaching-For-Extraordinary-Mind-Free-Download-and-Online-Reading%7C%7C-Life-Coaching-For-Extaordinary-Life.php"/>
 <meta name="og:site_name" content="Vote-onlin"/>
 <meta name="og:description" content="(Orignal 100%) The Book Of Coaching For Extraordinary Mind Free Download and Online Reading|| Life Coaching For Extraordinary Life"/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

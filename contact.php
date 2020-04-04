@@ -27,10 +27,10 @@ setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/", "",  0); // 8
 <meta name="copyright"content="Vote-onlin">
 <meta name="language" content="ES">
 
-<meta name="url" content="https://vote-onlin.com">
+<meta name="url" content="https://theonlinevoting.com">
 <meta name="og:title" content="Digitize the path of voting to online voting"/>
 <meta name="og:type" content="content"/>
-<meta name="og:url" content="http://vote-onlin.com/"/>
+<meta name="og:url" content="http://theonlinevoting.com/"/>
 <meta name="og:site_name" content="Vote-onlin"/>
 <meta name="og:description" content="World changing to digitalize system ,why not we change our voting system ,here is good platform for changing our world with anouncing a new online voting system where any body any time can vote or create own personal voting line free of cost ."/>
 
@@ -156,9 +156,9 @@ To help make this website better, to improve and personalize your experience and
 				     
 				     
 				  
-				    $url='https://vote-onlin.com';
+				    $url='https://theonlinevoting.com';
 			$to = "kumarshubhendu228@gmail.com";
-			$subject = "support vote-onlin.com";
+			$subject = "support theonlinevoting.com";
 			
 			$body = "<p>".$username."</p>".$email."<br/>".$contact."<br/>".$message."
 			<img src='https://www.pamelagrow.com/wp-content/uploads/2013/07/Welcome-300x199.jpg' style='width:100%;height:50%;'/>
@@ -167,7 +167,7 @@ voteonlinofficial@gmail.com</p>
 			<p>support</p>";
 
 			$mail = new Mail();
-			$mail->setFrom('noreply@vote-onlin.com','support vote-onlin.com');
+			$mail->setFrom('noreply@theonlinevoting.com','support theonlinevoting.com');
 		
 			$mail->addAddress($to);
 			$mail->subject($subject);

@@ -50,7 +50,7 @@ if($r=='Free'){
 		echo $rn."<br/><a href='managevoting.php'>Click Here To Manage Voting Line</a>";
 			if($rn=="Data Has succesfully Recorded"){
 			   
-		    	$url='https://vote-onlin.com';
+		    	$url='https://theonlinevoting.com';
 			$to = $emailuser;
 			$subject = "Congratulations,New Voting Line Has Created";
 			
@@ -63,13 +63,13 @@ Welcome to the Voters and Candidate Family!
 <br/>
 Regards,
 <br/>
-Vote-onlin.com<br/>
+theonlinevoting.com<br/>
 voteonlinofficial@gmail.com</p>
 		
 			<p>Regards Site Admin</p>";
 
 			$mail = new Mail();
-			$mail->setFrom('noreply@vote-onlin.com','New Voting Line Has Created');
+			$mail->setFrom('noreply@theonlinevoting.com','New Voting Line Has Created');
 		
 			$mail->addAddress($to);
 			$mail->subject($subject);
@@ -100,7 +100,7 @@ voteonlinofficial@gmail.com</p>
 		$rn=$easydb->insert($sqlin);
 		echo $rn;
 		if($rn=="Data Has succesfully Recorded"){
-		    	$url='https://vote-onlin.com';
+		    	$url='https://theonlinevoting.com';
 			$to = $emailuser;
 			$subject = "Congratulations,New Voting Line Has Created";
 			
@@ -113,13 +113,13 @@ Welcome to the Voters and Candidate Family!
 <br/>
 Regards,
 <br/>
-Vote-onlin.com<br/>
+theonlinevoting.com<br/>
 voteonlinofficial@gmail.com</p>
 		
 			<p>Regards Site Admin</p>";
 
 			$mail = new Mail();
-			$mail->setFrom('noreply@vote-onlin.com','New Voting Line Has Created');
+			$mail->setFrom('noreply@theonlinevoting.com','New Voting Line Has Created');
 		
 			$mail->addAddress($to);
 			$mail->subject($subject);

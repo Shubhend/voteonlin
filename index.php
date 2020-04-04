@@ -52,10 +52,10 @@ setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/", "",  0); // 8
   "@context": "https://schema.org/",
   "@type": "WebSite",
   "name": "vote-onlin",
-  "url": "https://vote-onlin.com",
+  "url": "https://theonlinevoting.com",
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "https://vote-onlin.com/freeads.php{search_term_string}",
+    "target": "https://theonlinevoting.com/freeads.php{search_term_string}",
     "query-input": "required name=search_term_string"
   }
 }
@@ -153,7 +153,7 @@ fwrite($myfile, $txt);
 				<div class="content">
 					<h1>Vote Online? <br> Here Is World</h1>
 					<div class="text">Online Voting enables voters to cast their vote privately and easily <br/>from any location. </div>
-					<a href="https://vote-onlin.com/online-vote-login.php" class="theme-btn btn-style-one">Register To Vote</a>
+					<a href="https://theonlinevoting.com/online-vote-login.php" class="theme-btn btn-style-one">Register To Vote</a>
 				</div>
 				<div class="image-box">
 					<figure class="image">
@@ -184,7 +184,7 @@ fwrite($myfile, $txt);
 							<span class="icon"><img src="images/resource/service-2.png" alt="" /></span>
 						</div>
 						<h5><a href="">What We Give <br> </a>You</h5>
-						<div class="text">Vote-onlin.com uses technology to simplify political engagement, increase voter turnout, and strengthen World democracy.Spend less money and reach more voters .</div>
+						<div class="text">theonlinevoting.com uses technology to simplify political engagement, increase voter turnout, and strengthen World democracy.Spend less money and reach more voters .</div>
 						<a href="" class="plus-box fa fa-plus"></a>
 					</div>
 				</div>
@@ -196,7 +196,7 @@ fwrite($myfile, $txt);
 							<span class="icon"><img src="images/resource/service-2.png" alt="" /></span>
 						</div>
 						<h5><a href="">Your Own Voting <br> </a>Tool</h5>
-						<div class="text">The Vote-onlin.com is  a  platform which provides High Accurate Analytics data that helps you to verify your voters , and  increase your business revenue.</div>
+						<div class="text">The theonlinevoting.com is  a  platform which provides High Accurate Analytics data that helps you to verify your voters , and  increase your business revenue.</div>
 						<a href="" class="plus-box fa fa-plus"></a>					
 					</div>
 				</div>
@@ -268,9 +268,9 @@ fwrite($myfile, $txt);
 								</div>
 							</div>
 							<div class="lower-box">
-								<h5><a href="https://vote-onlin.com/online-vote-login.php">Signup first</a></h5>
+								<h5><a href="https://theonlinevoting.com/online-vote-login.php">Signup first</a></h5>
 								<div class="text">Click On Signup New user For start Your Registration</div>
-								<a class="contact" href="https://vote-onlin.com/Login/Create-Voting.php">Signup</a>
+								<a class="contact" href="https://theonlinevoting.com/Login/Create-Voting.php">Signup</a>
 							</div>
 						</div>
 					</div>
@@ -284,9 +284,9 @@ fwrite($myfile, $txt);
 								</div>
 							</div>
 							<div class="lower-box">
-								<h5><a href="https://vote-onlin.com/online-vote-login.php">Create New Voting Line In Your Dashboard</a></h5>
+								<h5><a href="https://theonlinevoting.com/online-vote-login.php">Create New Voting Line In Your Dashboard</a></h5>
 								<div class="text">Just Take a 5 minutes To Create Voting Line</div>
-								<a class="contact" href="https://vote-onlin.com/Login/Create-Voting.php">Create Voting Line</a>
+								<a class="contact" href="https://theonlinevoting.com/Login/Create-Voting.php">Create Voting Line</a>
 							</div>
 						</div>
 					</div>
@@ -300,9 +300,9 @@ fwrite($myfile, $txt);
 								</div>
 							</div>
 							<div class="lower-box">
-								<h5><a href="https://vote-onlin.com/online-vote-login.php">Place Order</a></h5>
+								<h5><a href="https://theonlinevoting.com/online-vote-login.php">Place Order</a></h5>
 								<div class="text">Select Your Plan And pay</div>
-								<a class="contact" href="https://vote-onlin.com/Login/Create-Voting.php">Order now</a>
+								<a class="contact" href="https://theonlinevoting.com/Login/Create-Voting.php">Order now</a>
 							</div>
 						</div>
 					</div>
@@ -316,9 +316,9 @@ fwrite($myfile, $txt);
 								</div>
 							</div>
 							<div class="lower-box">
-								<h5><a href="https://vote-onlin.com/online-vote-login.php">Process Complete</a></h5>
+								<h5><a href="https://theonlinevoting.com/online-vote-login.php">Process Complete</a></h5>
 								<div class="text">See your Growth in this world with advanced analytics tool.</div>
-								<a class="contact" href="https://vote-onlin.com/Login/managevoting.php">see Voters List</a>
+								<a class="contact" href="https://theonlinevoting.com/Login/managevoting.php">see Voters List</a>
 							</div>
 						</div>
 					</div>

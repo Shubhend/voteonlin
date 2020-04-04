@@ -21,8 +21,8 @@ try {
         "send_sms" => true,
         "email" => $email,
         'allow_repeated_payments' => false,
-        "redirect_url" => "http://vote-onlin.com/instamojo/thankyou.php",
-        "webhook" => "http://vote-onlin.com/instamojo/webhook.php"
+        "redirect_url" => "http://theonlinevoting.com/instamojo/thankyou.php",
+        "webhook" => "http://theonlinevoting.com/instamojo/webhook.php"
         ));
     //print_r($response);
 

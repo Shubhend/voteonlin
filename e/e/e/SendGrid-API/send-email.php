@@ -8,7 +8,7 @@ $email = $_POST['email'];
 $message = $_POST['message'];
 
 /*Content*/
-$from = new SendGrid\Email("sdgsdg", "noreply@vote-onlin.com");
+$from = new SendGrid\Email("sdgsdg", "noreply@theonlinevoting.com");
 $subject = "SUBJECT";
 $to = new SendGrid\Email("TO NsdgAME", "wopensys@gmail.com");
 $content = new SendGrid\Content("text/html", "dgdfgfggds");

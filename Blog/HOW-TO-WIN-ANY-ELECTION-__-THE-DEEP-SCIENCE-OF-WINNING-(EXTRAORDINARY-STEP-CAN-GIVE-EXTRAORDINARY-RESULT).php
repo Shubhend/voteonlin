@@ -22,10 +22,10 @@
 <meta name="copyright"content="Vote-onlin">
 <meta name="language" content="ES">
 
-<meta name="url" content="https://vote-onlin.com">
+<meta name="url" content="https://theonlinevoting.com">
 <meta name="og:title" content="HOW TO WIN ANY ELECTION || THE DEEP SCIENCE OF WINNING (EXTRAORDINARY STEP CAN GIVE EXTRAORDINARY RESULT)"/>
 <meta name="og:type" content="content"/>
-<meta name="og:url" content="http://vote-onlin.com/Blog/Extraordinary Google Adsense Email For  New Account Verification (working Like a Hell).php"/>
+<meta name="og:url" content="http://theonlinevoting.com/Blog/Extraordinary Google Adsense Email For  New Account Verification (working Like a Hell).php"/>
 <meta name="og:site_name" content="Vote-onlin"/>
 <meta name="og:description" content="Extraordinary Google Adsense Email For  New Account Verification (working Like a Hell )"/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

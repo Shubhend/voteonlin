@@ -16,11 +16,11 @@ $mail = new PHPMailer();
                                // Enable verbose debug output
 
 $mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'vote-onlin.com';  // Specify main and backup SMTP servers
+$mail->Host = 'theonlinevoting.com';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;    
 $mail->SMTPDebug = 0;
 // Enable SMTP authentication
-$mail->Username = 'noreply@vote-onlin.com';                 // SMTP username
+$mail->Username = 'noreply@theonlinevoting.com';                 // SMTP username
 $mail->Password = 'Shubhendu@12';                           // SMTP password
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465;     
@@ -28,8 +28,8 @@ $mail->isHTML(true);
 // TCP port to connect to
 
   $headers .= "Reply-To: The Sender <voteonlinofficial@gmail.com>\r\n"; 
-  $headers .= "Return-Path: The Sender <noreply@vote-onlin.com>\r\n"; 
-  $headers .= "From: The Sender <noreply@vote-onlin.com>\r\n";
+  $headers .= "Return-Path: The Sender <noreply@theonlinevoting.com>\r\n";
+  $headers .= "From: The Sender <noreply@theonlinevoting.com>\r\n";
   
   $headers .= "Organization: Sender Organization\r\n";
   $headers .= "MIME-Version: 1.0\r\n";
@@ -37,7 +37,7 @@ $mail->isHTML(true);
   $headers .= "X-Priority: 3\r\n";
   $headers .= "X-Mailer: PHP". phpversion() ."\r\n" ;
   
-$mail->setFrom('noreply@vote-onlin.com', $_POST['title']);
+$mail->setFrom('noreply@theonlinevoting.com', $_POST['title']);
 $mail->addAddress($row["email"], $row["name"]);     // Add a recipient
 
 	

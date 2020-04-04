@@ -122,10 +122,10 @@ count='$co'  WHERE date='$date' and refurl='$ref' ");
 									<h4>Links</h4>
 									<ul class="list-link">
 										<li><a href="index.php">Home</a></li>
-										<li><a href="https://vote-onlin.com/online-vote-login.php">Services</a></li>
-										<li><a href="https://vote-onlin.com/index.php">About us</a></li>
+										<li><a href="https://theonlinevoting.com/online-vote-login.php">Services</a></li>
+										<li><a href="https://theonlinevoting.com/index.php">About us</a></li>
 									
-										<li><a href="https://vote-onlin.com/contact.php">Contact</a></li>
+										<li><a href="https://theonlinevoting.com/contact.php">Contact</a></li>
 									</ul>
 								</div>
 							</div>
@@ -142,10 +142,10 @@ count='$co'  WHERE date='$date' and refurl='$ref' ");
                                 <div class="footer-widget links-widget">
 									<h4>Support</h4>
 									<ul class="list-link">
-										<li><a href="https://vote-onlin.com/contact.php">Contact Us</a></li>
-										<li><a href="https://vote-onlin.com/contact.php">Submit a Ticket</a></li>
+										<li><a href="https://theonlinevoting.com/contact.php">Contact Us</a></li>
+										<li><a href="https://theonlinevoting.com/contact.php">Submit a Ticket</a></li>
 										<li><a href="index.php">Visit Knowledge Base</a></li>
-										<li><a href="https://vote-onlin.com/contact.php">Support System</a></li>
+										<li><a href="https://theonlinevoting.com/contact.php">Support System</a></li>
 									
 									</ul>
 								</div>

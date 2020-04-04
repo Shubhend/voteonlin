@@ -14,7 +14,7 @@ include('../include/config.php');
 
     <meta property="og:type" content="Make your own wonderful wish for you loved once"/>
     <meta property="og:title" content="Wishing You Happy Raksha bandhan {*LATEST ANIMATION WISH*}"/>
-    <meta property="og:url" content="https://vote-onlin.com/viral/Rakshabandhan.php<?php if($_GET['name']){ echo "?name=".$_GET['name']; }else{ echo "?id=".$_GET['id']; }  ?>"/>
+    <meta property="og:url" content="https://theonlinevoting.com/viral/Rakshabandhan.php<?php if($_GET['name']){ echo "?name=".$_GET['name']; }else{ echo "?id=".$_GET['id']; }  ?>"/>
    
   
 	<link rel="icon" type="image/png" sizes="32x32" href="https://pbs.twimg.com/media/DL5jDe3UQAAQexK.jpg"/>
@@ -891,7 +891,7 @@ var x = setInterval(function() {
 	
  
 <center>
-   <a class="footerbtn" href="whatsapp://send?text=*मुझसे पहले ऐसा संदेश आपके लिए किसी ने नही भेजा होगा निचे क्लिक करके देखो क्या है आपके लिए*👉https://vote-onlin.com/viral/Rakshabandhan.php<?php if($_GET['name']){ echo "?name=".$_GET['name']; }else{echo "?id=".$_GET['id']; } ?>"><img width="25px" height="25px" src="https://1.bp.blogspot.com/-IaGscinjmuU/W0SHj05u76I/AAAAAAAABlM/p2_fu034fQsuGMDdOvKUqlZJQl9Gjo9rwCLcBGAs/s1600/wp.png"><b style="font-size: 15px;"> Click Here to Share on Whatsapp</b> <img width="25px" height="25px" src="https://1.bp.blogspot.com/-IaGscinjmuU/W0SHj05u76I/AAAAAAAABlM/p2_fu034fQsuGMDdOvKUqlZJQl9Gjo9rwCLcBGAs/s1600/wp.png"></a>
+   <a class="footerbtn" href="whatsapp://send?text=*मुझसे पहले ऐसा संदेश आपके लिए किसी ने नही भेजा होगा निचे क्लिक करके देखो क्या है आपके लिए*👉https://theonlinevoting.com/viral/Rakshabandhan.php<?php if($_GET['name']){ echo "?name=".$_GET['name']; }else{echo "?id=".$_GET['id']; } ?>"><img width="25px" height="25px" src="https://1.bp.blogspot.com/-IaGscinjmuU/W0SHj05u76I/AAAAAAAABlM/p2_fu034fQsuGMDdOvKUqlZJQl9Gjo9rwCLcBGAs/s1600/wp.png"><b style="font-size: 15px;"> Click Here to Share on Whatsapp</b> <img width="25px" height="25px" src="https://1.bp.blogspot.com/-IaGscinjmuU/W0SHj05u76I/AAAAAAAABlM/p2_fu034fQsuGMDdOvKUqlZJQl9Gjo9rwCLcBGAs/s1600/wp.png"></a>
   
   <embed name="myMusic" loop="true" hidden="true" src="music/file.mp3"></embed>
    

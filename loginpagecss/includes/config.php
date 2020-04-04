@@ -12,7 +12,7 @@ define('DBPASS','Shubhendu@12');
 define('DBNAME','voteonl1_1');
 
 //application address
-define('DIR','http://vote-onlin.com/');
+define('DIR','http://theonlinevoting.com/');
 define('SITEEMAIL','noreply@domain.com');
 
 try {

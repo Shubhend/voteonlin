@@ -103,7 +103,7 @@ $name= $easydb->fetchrow("SELECT * FROM members where memberID='$ui' ",'username
   },
   "headline": "<?php echo implode(' ',array_slice(explode(' ',$t),0,9))."\n"; ?>",
   "image": [
-    "https://vote-onlin.com/thumbnail/<?php echo $th ?>"
+    "https://theonlinevoting.com/thumbnail/<?php echo $th ?>"
   
    ],
   "datePublished": "<?php echo $td; ?>",
@@ -117,7 +117,7 @@ $name= $easydb->fetchrow("SELECT * FROM members where memberID='$ui' ",'username
     "name": "<?php echo $name; ?>",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://vote-onlin.com/Online-Voting.php?pid=<?php echo $_GET['pid']; ?>"
+      "url": "https://theonlinevoting.com/Online-Voting.php?pid=<?php echo $_GET['pid']; ?>"
     }
   },
   "description": "  <?php echo implode(' ',array_slice(explode(' ',strip_tags(base64_decode($de))),0,50))."\n"; ?>"
@@ -150,10 +150,10 @@ $name= $easydb->fetchrow("SELECT * FROM members where memberID='$ui' ",'username
 <meta name="description" content="Give and create your own voting line free of cost">
 
 <script src="gtag.js"></script>
-<meta name="url" content="https://vote-onlin.com">
+<meta name="url" content="https://theonlinevoting.com">
 <meta name="og:title" content="Digitize the path of voting to online voting"/>
 <meta name="og:type" content="content"/>
-<meta name="og:url" content="http://vote-onlin.com/"/>
+<meta name="og:url" content="http://theonlinevoting.com/"/>
 <meta name="og:site_name" content="Vote-onlin"/>
 <meta name="og:description" content="World changing to digitalize system ,why not we change our voting system ,here is good platform for changing our world with anouncing a new online voting system where any body any time can vote or create own personal voting line free of cost ."/>
 <?php } ?>
@@ -408,7 +408,7 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
           
    <div class="wrapper" >
   <div class="containe">
-    <a href="https://vote-onlin.com/online-vote-login.php">
+    <a href="https://theonlinevoting.com/online-vote-login.php">
         <div class="top" style="  background: url(images/card1.jpg) no-repeat center center; background-size:cover;"></div>
         
     </a>
@@ -423,7 +423,7 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
 </div>
          <div class="wrapper">
   <div class="containe">
-<a href"https://vote-onlin.com/online-vote-login.php">    <div class="top" style="  background: url(images/card2.jpg) no-repeat center center; background-size:cover;"></div></a>
+<a href"https://theonlinevoting.com/online-vote-login.php">    <div class="top" style="  background: url(images/card2.jpg) no-repeat center center; background-size:cover;"></div></a>
    
   </div>
   <div class="inside">
@@ -900,7 +900,7 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
       url: "phpfiles/expe.php",
       data: {exp: exp, sug: sug},
       success: function(resultData) { 
-          window.location.href = "https://vote-onlin.com/online-vote-login.php";
+          window.location.href = "https://theonlinevoting.com/online-vote-login.php";
        
           }
 });

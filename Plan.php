@@ -26,10 +26,10 @@ setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/", "",  0); // 8
 <meta name="copyright"content="Vote-onlin">
 <meta name="language" content="ES">
 
-<meta name="url" content="https://vote-onlin.com">
+<meta name="url" content="https://theonlinevoting.com">
 <meta name="og:title" content="Plan Of Voting Line"/>
 <meta name="og:type" content="content"/>
-<meta name="og:url" content="http://vote-onlin.com/"/>
+<meta name="og:url" content="http://theonlinevoting.com/"/>
 <meta name="og:site_name" content="Vote-onlin"/>
 <meta name="og:description" content="World changing to digitalize system ,why not we change our voting system ,here is good platform for changing our world with anouncing a new online voting system where any body any time can vote or create own personal voting line free of cost ."/>
 

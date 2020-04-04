@@ -16,8 +16,8 @@ try {
         "send_email" => true,
         "send_sms" => true,
         'allow_repeated_payments' => false,
-        "redirect_url" => "https://vote-onlin.com/instamojo/show.php",
-        "webhook" => "https://vote-onlin.com/instamojo/show.php"
+        "redirect_url" => "https://theonlinevoting.com/instamojo/show.php",
+        "webhook" => "https://theonlinevoting.com/instamojo/show.php"
         ));
    $pay_ulr = $response['longurl'];
     header("Location: $pay_ulr");

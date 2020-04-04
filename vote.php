@@ -1,6 +1,6 @@
 <?php
 
 $url=$_GET['id'];
-header('location:https://vote-onlin.com/Online-Voting.php?pid='.$url);
+header('location:https://theonlinevoting.com/Online-Voting.php?pid='.$url);
 
 ?>

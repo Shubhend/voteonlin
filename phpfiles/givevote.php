@@ -89,11 +89,11 @@ $userid=$easydb->fetchrow($sql,'memberID');
 			$subject = "Congratulations You Have Just Voted";
 			$body = "<p>Thank you for Your precious  Vote.</p>
 		    <br/>
-		    You can Vote On More voting Line Here <a href='https://vote-onlin.com/Online-Voting.php'>Click here</a>
+		    You can Vote On More voting Line Here <a href='https://theonlinevoting.com/Online-Voting.php'>Click here</a>
 			<p>Regards Site Admin</p>";
 
 			$mail = new Mail();
-			$mail->setFrom('noreply@vote-onlin.com');
+			$mail->setFrom('noreply@theonlinevoting.com');
 		
 			$mail->addAddress($to);
 			$mail->subject($subject);
@@ -105,12 +105,12 @@ $userid=$easydb->fetchrow($sql,'memberID');
 				$rhh=$easydb->fetchrow($sqmm,"title");
 				$to = $username;
 			$subject = "Congratulations You Have Got New Vote on ".$rhh."Check Here";
-			$body = "<p>You Can Login To Your Account And Check Your Latest Record<a href='https://vote-onlin.com/online-vote-login.php'>click Here</a></p>
+			$body = "<p>You Can Login To Your Account And Check Your Latest Record<a href='https://theonlinevoting.com/online-vote-login.php'>click Here</a></p>
 		
 			<p>Regards Site Admin</p>";
 
 			$mail = new Mail();
-			$mail->setFrom('noreply@vote-onlin.com');
+			$mail->setFrom('noreply@theonlinevoting.com');
 		
 			$mail->addAddress($to);
 			$mail->subject($subject);

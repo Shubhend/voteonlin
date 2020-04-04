@@ -7,7 +7,7 @@
     <meta name="google" value="notranslate">
     <meta property="og:type" content="Make your own wonderful wish for you loved once" />
     <meta property="og:title" content="Sent Independence Day Greetings to Your Partner" />
-    <meta property="og:url" content="https://vote-onlin.com/viral/<?php echo $_GET['name']; ?>"/>
+    <meta property="og:url" content="https://theonlinevoting.com/viral/<?php echo $_GET['name']; ?>"/>
     <meta property="og:description" content="CLICK HERE" />
     <meta property="og:site_name" content="Create Independence Day Wishes" />
     <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
@@ -563,7 +563,7 @@ Pata Chalega Hamara Hindustan Khatre Mein Hai!<br />
 <div class="busi"><h1><p style="text-transform: uppercase;font-size: 26px;color:#ffffff;"> 
 <?php echo "By-  ".$_GET['name']; ?><br>
 <a href="whatsapp://send?text= 🇮🇳 *Touch This Blue line Enter Your name and See Magic*
-👉 *https://vote-onlin.com/viral/index.php?name=<?php echo $_GET['name']; ?>*"><img src="https://i.imgur.com/2VvwqQk.png"  class="swing2" class="img-responsive" alt="Share" width="200px"></a></p></h1></center>
+👉 *https://theonlinevoting.com/viral/index.php?name=<?php echo $_GET['name']; ?>*"><img src="https://i.imgur.com/2VvwqQk.png"  class="swing2" class="img-responsive" alt="Share" width="200px"></a></p></h1></center>
 <center>
 <!------- AdSense Code Goes Here ------------>
 	<?php include('ads.php'); ?>
@@ -577,7 +577,7 @@ Pata Chalega Hamara Hindustan Khatre Mein Hai!<br />
         
         <center>
    <a class="footerbtn" href="whatsapp://send?text= 🇮🇳  *Touch This Blue line Enter Your name and See Magic*
-👉 *https://vote-onlin.com/viral/index.php?name=<?php echo $_GET['name']; ?>*"><img width="25px" height="25px" src="https://i.imgur.com/fcqTtzV.png"/>  <b class="hny-txt" style="font-size: 26px;">Share on Whatsapp</b>  <img width="25px" height="25px" src="https://i.imgur.com/fcqTtzV.png"/></a></center>
+👉 *https://theonlinevoting.com/viral/index.php?name=<?php echo $_GET['name']; ?>*"><img width="25px" height="25px" src="https://i.imgur.com/fcqTtzV.png"/>  <b class="hny-txt" style="font-size: 26px;">Share on Whatsapp</b>  <img width="25px" height="25px" src="https://i.imgur.com/fcqTtzV.png"/></a></center>
 
  <embed name="myMusic" loop="true" hidden="true" src="music/vatan.mp3"></embed>
 

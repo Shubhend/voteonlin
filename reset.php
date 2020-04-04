@@ -43,7 +43,7 @@ if(isset($_POST['submit'])){
 			));
 
 			//send email
-				$url='https://vote-onlin.com';
+				$url='https://theonlinevoting.com';
 			$to = $row['email'];
 			$subject = "Password Reset";
 			$body = "<p>Someone requested that the password be reset.</p>
@@ -51,7 +51,7 @@ if(isset($_POST['submit'])){
 			<p>To reset your password, visit the following address: <a href='".$url."/resetPassword.php?key=$token'>".$url."/resetPassword.php?key=$token</a></p>";
 
 			$mail = new Mail();
-			$mail->setFrom('noreply@vote-onlin.com','Password Change Request In Vote-onlin');
+			$mail->setFrom('noreply@theonlinevoting.com','Password Change Request In Vote-onlin');
 			$mail->addAddress($to);
 			$mail->subject($subject);
 			$mail->body($body);

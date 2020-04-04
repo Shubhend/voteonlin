@@ -193,11 +193,11 @@ if(empty($posted['hash']) && sizeof($posted) > 0) {
         </tr>
         <tr>
          
-          <td colspan="3"><input type="hidden" name="surl" value="https://vote-onlin.com/Login/phpfiles/success.php" size="64" /></td>
+          <td colspan="3"><input type="hidden" name="surl" value="https://theonlinevoting.com/Login/phpfiles/success.php" size="64" /></td>
         </tr>
         <tr>
        
-          <td colspan="3"><input type="hidden" name="furl" value="https://vote-onlin.com/Login/phpfiles/failure.php" size="64" /></td>
+          <td colspan="3"><input type="hidden" name="furl" value="https://theonlinevoting.com/Login/phpfiles/failure.php" size="64" /></td>
         </tr>
 
         <tr>
